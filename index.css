@@ -181,8 +181,24 @@ footer div{
 /* --------------------------------- footer --------------------------------- */
 
 
+@media only screen and (min-width: 360px) and (max-width: 600px){
+    .galeria{
+        margin-left: 0px;
+        width: 360px;
+        height: 360px;
+        background-position: center;
+        background-size: cover;
+    }
+    .foto{
+        margin-left:0px;
+        width: 360px;
+        height: 360px;
+        background-position: center;
+        background-size: cover;
+    }
+    }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 600px) and (max-width:767px) {
     .galeria{
         margin-left: 2px;
         width: 500px;
@@ -201,14 +217,14 @@ footer div{
 
 @media only screen and (min-width: 768px) and (max-width:1023px){
     .galeria{
-        margin-left: 100px;
+        margin-left: 250px;
         width: 500px;
         height: 500px;
         background-position: center;
         background-size: cover;
     }
     .foto{
-        margin-left: 100px;
+        margin-left: 250px;
         width: 500px;
         height: 500px;
         background-position: center;
@@ -216,16 +232,16 @@ footer div{
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1199){
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
 .galeria{
-    margin-left: 250px;
+    margin-left: 200px;
     width: 600px;
     height: 600px;
     background-position: center;
     background-size: cover;
 }
 .foto{
-    margin-left: 250px;
+    margin-left: 200px;
     width: 600px;
     height: 600px;
     background-position: center;
@@ -233,7 +249,7 @@ footer div{
 }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) and (max-width:1399px){
     .galeria{
         margin-left: 300px;
         width: 600px;
@@ -249,3 +265,19 @@ footer div{
         background-size: cover;
     }
     }
+    @media only screen and (min-width: 1400px){
+        .galeria{
+            margin-left: 400px;
+            width: 600px;
+            height: 600px;
+            background-position: center;
+            background-size: cover;
+        }
+        .foto{
+            margin-left: 400px;
+            width: 600px;
+            height: 600px;
+            background-position: center;
+            background-size: cover;
+        }
+        }
