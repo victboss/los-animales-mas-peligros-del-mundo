@@ -52,6 +52,7 @@ body{background-color: springgreen;
     height: 250px;
     width: 400px;
     border-radius: 5px;
+    margin-left: 750px;
 
 }
 
@@ -181,3 +182,70 @@ footer div{
 
 
 
+@media only screen and (min-width: 600px){
+    .galeria{
+        margin-left: 2px;
+        width: 500px;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+    .foto{
+        margin-left: 2px;
+        width: 500px;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1023px){
+    .galeria{
+        margin-left: 100px;
+        width: 500px;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+    .foto{
+        margin-left: 100px;
+        width: 500px;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199){
+.galeria{
+    margin-left: 250px;
+    width: 600px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+.foto{
+    margin-left: 250px;
+    width: 600px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+}
+
+@media only screen and (min-width: 1200px){
+    .galeria{
+        margin-left: 300px;
+        width: 600px;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+    }
+    .foto{
+        margin-left: 300px;
+        width: 600px;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+    }
+    }
