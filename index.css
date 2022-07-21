@@ -9,6 +9,9 @@
 header{
     background-color: springgreen;
 }
+.logo{
+    background-color: aquamarine;
+}
 
 /* --------------------------------- reseteo -------------------------------- */
 
@@ -22,7 +25,7 @@ body{background-color: springgreen;
 
 /* ---------------------------------- body ---------------------------------- */
 
-.galeria{
+/*.galeria{
     width: 1000px;
     background-color: black;
     height: 500px;
@@ -31,7 +34,7 @@ body{background-color: springgreen;
     background-position: center;
     border: 2px solid black;
     margin-left: 450px;
-}
+}*/
 
 
 
