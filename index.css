@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* --------------------------------- reseteo -------------------------------- */
+
 
 header{
     background-color: springgreen;
@@ -13,7 +15,7 @@ header{
     background-color: aquamarine;
 }
 
-/* --------------------------------- reseteo -------------------------------- */
+/* --------------------------------- header --------------------------------- */
 
 
 body{background-color: springgreen;
