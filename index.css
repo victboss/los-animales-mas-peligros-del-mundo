@@ -136,13 +136,34 @@ h3{
 
 
 /* ---------------------------------- lista --------------------------------- */
+
+.sec{
+    width: 500px;
+    padding: 30px;
+}
+
+
+.carousel-indicators li{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+/* -------------------------------- carousel -------------------------------- */
+
+
+
+
 .back {color: aqua;
     
     background-color: green;
     border: 2px solid blue;
-    padding: 8px;
+    padding: 10px ;
     font-size: 19px;
     text-decoration: none;
+    margin: 20px;
 }
 
 .back:hover{
