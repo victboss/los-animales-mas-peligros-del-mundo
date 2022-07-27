@@ -213,7 +213,7 @@ h3{
 
 
 footer{
-    margin: 450px 0 0 0;
+    margin-top: 450px;
     background-color: rgba(83, 83, 83, 0.918);
     text-align: center;
     position:relative;
@@ -223,19 +223,15 @@ footer{
 
 
 
-footer div{
+footer i{
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 
 }
 
 
-.redes i{
-    font-size: 30px;
-    color: rgba(240, 229, 229, 0.829);
-    letter-spacing: 20px;
-    margin: 5px;
-}
+
 /* --------------------------------- footer --------------------------------- */
 
 
