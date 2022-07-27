@@ -160,7 +160,6 @@ h3{
 
 .sec{
     width: 70%;
-    padding: 30px;
 }
 
 
@@ -179,16 +178,17 @@ h3{
 /* -------------------------------- carousel -------------------------------- */
 
 
+.volver{
+    margin: 100px 0 0 0;
+}
 
-
-.back {color: aqua;
-    
+.back {color: cyan;
     background-color: green;
     border: 2px solid blue;
-    padding: 10px ;
-    font-size: 19px;
+    padding: 20px;
+    font-size: 20px;
     text-decoration: none;
-    margin: 20px;
+    
 }
 
 .back:hover{
@@ -201,14 +201,6 @@ h3{
 
 
 /* --------------------------------- Volver --------------------------------- */
-
-
-.contacto {display: block;
-
-}
-
-
-/* --------------------------------- contato -------------------------------- */
 
 
 
