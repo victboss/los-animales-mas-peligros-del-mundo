@@ -24,8 +24,19 @@ body{background-color: springgreen;
     
 }
 
-
 /* ---------------------------------- body ---------------------------------- */
+
+
+
+.nav-item:hover{
+    background-color: cyan;
+}
+
+
+
+/* ------------------------------ barra de nav ------------------------------ */
+
+
 
 /*.galeria{
     width: 1000px;
@@ -56,19 +67,29 @@ body{background-color: springgreen;
     box-shadow: 2px 2px 5px black;
 }
 
-.foto{
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    width: 400px;
-    border-radius: 5px;
-
-
-}
-
 
 /* -------------------------------- imagenes -------------------------------- */
 
+i{
+    color: red;
+}
+span{
+text-shadow:2px 2px 5px black;
+animation-duration: 2s;
+animation-name: aparecer;
+animation-delay: 0s;
+animation-direction: alternate;
+animation-iteration-count: 2;
+}
+@keyframes aparecer{
+0%{ opacity: 0;
+
+
+}
+100%{
+    opacity: 1;
+}
+}
 h1{
     color: rgb(240, 32, 4);
     text-align: center;
@@ -76,7 +97,7 @@ h1{
 }
 
 h3{
-    margin: 20px;
+    margin: 15px;
     font-size: 20px;
 }
 
@@ -138,7 +159,7 @@ h3{
 /* ---------------------------------- lista --------------------------------- */
 
 .sec{
-    width: 100%;
+    width: 70%;
     padding: 30px;
 }
 
@@ -186,15 +207,16 @@ h3{
 
 }
 
+
 /* --------------------------------- contato -------------------------------- */
 
 
 
-footer{margin: 450px 0 0 0;
+footer{
+    margin: 450px 0 0 0;
     background-color: rgba(83, 83, 83, 0.918);
     text-align: center;
     position:relative;
-    bottom: 0px;
     width: 100%;
 
 }
@@ -216,6 +238,23 @@ footer div{
 }
 /* --------------------------------- footer --------------------------------- */
 
+
+@media only screen and (min-width: 340px) and (max-width: 359px){
+    .galeria{
+        margin-left: 0px;
+        width: 360px;
+        height: 360px;
+        background-position: center;
+        background-size: cover;
+    }
+    .foto{
+        margin-left:0px;
+        width: 360px;
+        height: 360px;
+        background-position: center;
+        background-size: cover;
+    }
+    }
 
 @media only screen and (min-width: 360px) and (max-width: 600px){
     .galeria{
