@@ -20,8 +20,12 @@ header{
 
 body{background-color: springgreen;
     background-image: linear-gradient(springgreen, green);
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     
+}
+
+.presentacion{
+    text-align: center;
 }
 
 /* ---------------------------------- body ---------------------------------- */
@@ -158,8 +162,8 @@ h3{
 
 /* ---------------------------------- lista --------------------------------- */
 
-.sec{
-    width: 70%;
+.carrusel{
+    width: 100%;
 }
 
 
@@ -205,7 +209,7 @@ h3{
 
 
 footer{
-    margin-top: 450px;
+    margin-top: 550px;
     background-color: rgba(83, 83, 83, 0.918);
     text-align: center;
     position:relative;
