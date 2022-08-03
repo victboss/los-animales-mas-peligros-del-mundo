@@ -36,3 +36,13 @@
     background-color: white;
     border-radius: 5px;
 }
+
+@for $incremento from 1 through 4 {
+    .todos-#{$incremento} {
+        width:4em * $incremento;
+        background-color: lightblue;
+      font-size:20px * $incremento;
+      border-width: 5px * $incremento;
+      box-shadow:0 0 5px * $incremento aqua inset;  
+    }
+    }
