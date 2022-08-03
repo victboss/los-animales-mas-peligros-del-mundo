@@ -1,0 +1,46 @@
+
+
+
+.Divisor{
+    display: flexbox;
+    margin: 5px;
+    flex-wrap: nowrap;
+}
+
+.Divisor h2{
+    padding: 1rem;
+    color: red;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.texto{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+
+.Divisor a{
+    color: aqua;
+    background-color:green;
+    border: 2px solid blue;
+    color: aqua;
+    padding: 8px;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.Divisor a:hover{
+    color: blue;
+}
+.Divisor i{
+    font-size:  20px;
+    padding: 10px;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* --------------------------------- divisor -------------------------------- */
