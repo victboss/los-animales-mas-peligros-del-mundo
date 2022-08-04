@@ -37,6 +37,11 @@
     border-radius: 5px;
 }
 
+.para{
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black
+}
 @for $incremento from 1 through 4 {
     .todos-#{$incremento} {
         width:4em * $incremento;
