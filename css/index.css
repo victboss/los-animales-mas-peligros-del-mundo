@@ -114,6 +114,36 @@ body {
   box-shadow: 0 0 20px aqua inset;
 }
 
+.extend, .extend--nuevo span, .extend--nuevo {
+  border: 3px solid red;
+  background-color: purple;
+  height: 300px;
+  width: 600px;
+  padding: 20px;
+}
+
+.extend--nuevo {
+  border-width: 3px;
+  color: whitesmoke;
+  font-size: 50px;
+}
+.box {
+  height: 400px;
+  width: 100%;
+  background-color: lightblue;
+  font-size: 50px;
+  color: yellow;
+}
+
+.box2 {
+  height: 300px;
+  width: 100%;
+  background-color: white;
+  color: yellow;
+  text-align: right;
+  font-size: 50px;
+}
+
 p {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
