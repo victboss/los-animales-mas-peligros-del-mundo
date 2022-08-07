@@ -13,7 +13,6 @@ header {
   background-color: aquamarine;
 }
 
-/* --------------------------------- header --------------------------------- */
 body {
   background-color: springgreen;
   background-image: linear-gradient(springgreen, green);
@@ -28,16 +27,6 @@ body {
   background-color: cyan;
 }
 
-/*.galeria{
-    width: 1000px;
-    background-color: black;
-    height: 500px;
-    background-image: url(/animales/Multimedia/Los-Animales-Salvajes.jpg);
-    background-size: cover;
-    background-position: center;
-    border: 2px solid black;
-    margin-left: 450px;
-}*/
 .img {
   width: 300px;
   height: 300px;
@@ -65,11 +54,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.texto {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-}
-
 .Divisor a {
   color: aqua;
   background-color: green;
@@ -92,9 +76,52 @@ body {
   border-radius: 5px;
 }
 
-/* --------------------------------- divisor -------------------------------- */
+.para {
+  height: 200px;
+  background-color: lightblue;
+  border: 2px solid black;
+}
+
+.todos-1 {
+  width: 4em;
+  background-color: lightblue;
+  font-size: 20px;
+  border-width: 5px;
+  box-shadow: 0 0 5px aqua inset;
+}
+
+.todos-2 {
+  width: 8em;
+  background-color: lightblue;
+  font-size: 40px;
+  border-width: 10px;
+  box-shadow: 0 0 10px aqua inset;
+}
+
+.todos-3 {
+  width: 12em;
+  background-color: lightblue;
+  font-size: 60px;
+  border-width: 15px;
+  box-shadow: 0 0 15px aqua inset;
+}
+
+.todos-4 {
+  width: 16em;
+  background-color: lightblue;
+  font-size: 80px;
+  border-width: 20px;
+  box-shadow: 0 0 20px aqua inset;
+}
+
 p {
   font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
 }
 
 .lista {
@@ -104,11 +131,25 @@ p {
 
 span {
   text-shadow: 2px 2px 5px black;
-  animation-duration: 2s;
-  animation-name: aparecer;
-  animation-delay: 0s;
-  animation-direction: alternate;
-  animation-iteration-count: 2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes aparecer {
@@ -129,12 +170,16 @@ h1 span {
   color: red;
 }
 
+h2 {
+  color: red;
+  text-align: center;
+}
+
 h3 {
   margin: 15px;
   font-size: 20px;
 }
 
-/* --------------------------------- titulos --------------------------------- */
 .carrusel {
   width: 100%;
 }
@@ -185,6 +230,4 @@ footer i {
   margin: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

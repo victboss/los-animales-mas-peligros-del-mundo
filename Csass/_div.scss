@@ -51,3 +51,27 @@
       box-shadow:0 0 5px * $incremento aqua inset;  
     }
     }
+    
+
+    $map1:(
+        20px:rgb(87, 173, 145),
+        40px:rgb(201, 165, 98),
+        60px:rgb(120, 120, 241),
+        80px:rgb(235, 235, 103)
+        );
+    
+    @each $sizes, $colores in $map1 {
+        .bto--#{$colores}{
+            background-color:lightblue;
+            height:200px;
+            width:500px;
+            border: 12px solid $colores;
+            text-align:center;
+            font-size:$sizes;
+            color:black;
+            text-transform: uppercase;
+            font-family: cursive;
+            border-radius: 10px;
+    
+        }
+    }    
