@@ -3,7 +3,7 @@
 
 
 footer{
-    margin-top:560px;
+    margin-top:80px;
     background-color: rgba(83, 83, 83, 0.918);
     text-align: center;
     position:relative;
@@ -17,5 +17,22 @@ footer i{
     margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+
+}
+
+footer#pie1{
+    margin: 145px 0 0 0;
+    background-color: rgba(83, 83, 83, 0.918);
+    text-align: center;
+    position:relative;
+    width: 100%;
+
+}
+footer#pie2{
+    margin:180px 0 0 0;
+    background-color: rgba(83, 83, 83, 0.918);
+    text-align: center;
+    position:relative;
+    width: 100%;
 
 }
